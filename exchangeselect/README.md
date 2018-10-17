@@ -12,7 +12,7 @@ npm run dev
 
 在进行业务开发过程中，发现多处相同的交互形式，考虑将其做成组件，来节省开发时间，加快开发进度。客流运营中客流数据模块，需要显示门店的客流数据，门店是挂在区域树下，由于客流数据需要提供尽可能大的页面来展示客流的数据，所以选择门店不能使用左侧边栏的方式进行展示，需要使用下拉框的形式，因此组件的整体效果是下拉出现门店，同时下拉内容中还可以下拉选择区域，选择区域后展示该区域下的门店信息
 
-![效果图](https://git.hikvision.com.cn/users/yuanyuan10/repos/selecttree/browse/src/views/selectTree/selectTree.gif?at=b030cb140e3f7072a3945f1d1289847c7d13cf60&raw)
+![效果图](https://github.com/yy709593266/vueComponents/blob/master/exchangeselect/src/views/exchangeSelect/exchangeSelect1.gif?raw=true)
 
 ### 组件开发流程
 
