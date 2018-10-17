@@ -1,0 +1,73 @@
+@themeBaseColor: #C19D63;  //主题字体选中颜色
+@themeActiveBgColor: #F9F6F0;  //主题选中背景色
+@dropdownWidth: 200px;	//下拉宽度
+.multi-search-select{
+  position: relative;
+  left: 0;
+  transition: left 0.5s;
+  display: flex;
+  align-items: center;
+}
+.multi-dropdown-ctn{
+  width: @dropdownWidth;
+  .ctn-wrap{
+    position: relative;
+    height: 230px;
+  }
+}
+.list-item{
+  width: calc(~'@{dropdownWidth} - 4px');
+	margin-left: 2px;
+	height: 32px;
+	cursor: pointer;
+	font-size: 12px;
+	display: flex;
+  align-items: center;
+  position: relative;
+  & > img{
+    position: absolute;
+    right: 16px;
+    top: 7px;
+  }
+}
+.list-item.active{
+	color: @themeBaseColor;
+  background: @themeActiveBgColor;
+}
+.copy-select-style{
+  width: 200px;
+  height: 32px;
+  line-height: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 0 15px 0 4px;
+  cursor: pointer;
+  box-sizing: border-box;
+  .left-ctn{
+    display: flex;
+    & > span{
+      margin-right: 4px;
+    }
+    .copy-opt-style{
+      color: #333;
+      background: #f2f2f2;
+      border-radius: 2px;
+      border: 1px solid #e6e6e6;
+      height: 24px;
+      padding: 0 4px 0 8px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .single-type{
+      background: #fff;
+      border: none;
+    }
+    .no-chose{
+      margin-left: 11px;
+      color: #ccc;
+    }
+  }
+}

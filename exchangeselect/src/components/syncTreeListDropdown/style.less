@@ -1,0 +1,86 @@
+@borderColor: #e6e6e6;  //线条颜色
+@themeBaseColor: #C19D63;  //主题字体选中颜色
+@themeActiveBgColor: #F9F6F0;  //主题选中背景色
+@inputWidth: 200px;	//input框宽度
+
+.select-tree{
+  border: 1px solid #ccc;
+  width: @inputWidth;
+  min-width: @inputWidth;
+	height: 32px;
+  background: #fff;
+  cursor: pointer;
+}
+.el-dropdown-diy{
+  width: 100%;
+  height: 100%;
+  padding: 0 15px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.dropmenu-tree{
+  width: calc(~'@{inputWidth} - 2px');
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.drop-tree-wrap{
+  height: 180px;
+  width: 100%;
+  margin-top: 8px;
+}
+.tree-search-input{
+  width: calc(~'@{inputWidth} - 16px');
+  margin: 9px 8px;
+}
+.space-between{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 32px;
+  cursor: pointer;
+}
+.region-name{
+  font-size: 12px;
+  color: #666;
+  width: calc(~'@{inputWidth} - 16px');
+  margin: 8px;
+  background: #f5f5f5;
+  border-radius: 100px;
+  padding: 0 12px;
+  box-sizing: border-box;
+}
+.first-dropdown-ctn{
+  width: @inputWidth;
+}
+.mall-list-wrap{
+  position: relative;
+  height: 180px;
+  margin-top: 8px;
+}
+.no-mall-node{
+  color: #ccc;
+}
+.mall-item{
+  width: calc(~'@{inputWidth} - 4px');
+	margin-left: 2px;
+	height: 32px;
+	cursor: pointer;
+	font-size: 12px;
+	display: flex;
+	align-items: center;
+}
+.mall-item.active{
+	color: @themeBaseColor;
+	background: @themeActiveBgColor;
+}
+.transition-wrap{
+  height: calc(~'100% - 56px');
+  background: #fff;
+  position: absolute;
+  z-index: 9;
+}
+.input-center{
+  display: flex;
+  justify-content: center;
+}
