@@ -10,11 +10,11 @@ npm run dev
 
 图1:多选
 
-![](https://git.hikvision.com.cn/users/yuanyuan10/repos/searchselect/browse/src/views/searchSelect/searchSelect1.gif?at=e9d2f0ce85d295ef1be5de98bcccbcdb28cd48d7&raw)
+![](https://github.com/yy709593266/vueComponents/blob/master/searchselect/src/views/searchSelect/searchSelect1.gif?raw=true)
 
 图2:单选
 
-![](https://git.hikvision.com.cn/users/yuanyuan10/repos/searchselect/browse/src/views/searchSelect/searchSelect2.gif?at=e9d2f0ce85d295ef1be5de98bcccbcdb28cd48d7&raw)
+![](https://github.com/yy709593266/vueComponents/blob/master/searchselect/src/views/searchSelect/searchSelect2.gif?raw=true)
 
 选中项会有字体颜色和背景颜色标识，同时相应项后面会有勾选状态，显示栏中有选中的项，大于一项的会显示数量值。
 
